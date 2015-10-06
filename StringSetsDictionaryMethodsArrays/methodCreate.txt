@@ -1,0 +1,57 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static double CalcTriangleArea (double weight, double hight)
+        {
+            return weight * hight / 2;
+        }
+
+        static void Main()
+        {
+            Console.Write("Enter triangle weight: ");
+
+            double weight = double.Parse (Console.ReadLine());
+
+            Console.Write("Enter triangle hight: ");
+
+            double hight = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("The area is: {0} cm", CalcTriangleArea(weight, hight));
+        }
+
+        //static void PrintNumbers(int start, int end)
+        //{
+        //    for (int i = start; i <= end; i++)
+        //    {
+        //        Console.WriteLine("{0} ", i);
+        //    }
+        //}
+
+        //static void Main()
+        //{
+        //    PrintNumbers(5, 10);
+        //}
+
+
+
+
+        //static void PrintLogo()  //метод
+        //{
+        //    Console.WriteLine("Dilka Light Magic Studio");
+        //    Console.WriteLine("www.dilka.com");
+        //}
+
+
+        //static void Main()
+        //{
+        //   PrintLogo();
+
+        //}
+    }
+

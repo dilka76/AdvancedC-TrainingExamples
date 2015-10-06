@@ -1,0 +1,4 @@
+
+            string[] arr = { "Dilka", "5", "Kompir" };
+
+            Console.WriteLine(string.Join(", ", arr));

@@ -1,0 +1,23 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string pattern = Console.ReadLine();
+            string target = Console.ReadLine();
+
+            Console.WriteLine(target.ToLower().IndexOf(pattern.ToLower()) != -1);
+            
+        }
+
+      
+
+
+    }
+

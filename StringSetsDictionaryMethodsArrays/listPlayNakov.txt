@@ -1,0 +1,23 @@
+List<int> numbers = new List<int> {10, 20, 30, 40, 50, 60, 70};
+
+            var result = numbers.Skip(3).Take(2);
+
+            //int[] result = numbers.Skip(3).Take(2).ToArray(); Превръща лист в масив !
+
+            Console.WriteLine(string.Join(", ", result));
+
+
+            
+            //List <int> nums = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+
+            //nums.Add(-10);
+            //nums.RemoveAt(1);
+            //nums.Insert(2, 555);
+
+            //nums.InsertRange(1, new int[] {3, 5, 7, 9});
+            //nums.AddRange(new int[] {1000, 2000, 3000});
+            //nums.Remove(1000);
+            //nums.RemoveAll(p => p <= 1000);
+            ////nums.ForEach(Console.WriteLine);
+            ////Console.WriteLine(string.Join(" ", nums));
+            //Console.WriteLine(nums.FindLast(p => p > 10));

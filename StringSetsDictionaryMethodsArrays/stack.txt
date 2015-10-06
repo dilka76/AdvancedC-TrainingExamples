@@ -1,0 +1,7 @@
+var stack = new stack<string>();
+
+            stack.Push("Pesho");
+            stack.Push("Pesfho");
+            stack.Push("Pedsho");
+            stack.Push("Peasho");
+има много други команди

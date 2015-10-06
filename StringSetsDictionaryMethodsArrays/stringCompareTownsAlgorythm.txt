@@ -1,0 +1,32 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string[] towns = { "Sofia", "Burgas", "Varna", "Sliven", "Petrich", "Aytos" };
+
+            string firstTown = towns[0];
+
+            for (int i = 1; i < towns.Length; i++)
+            {
+                string currentTown = towns[i];
+                
+                if (string.Compare(currentTown, firstTown) < 0)
+                {
+                    firstTown = currentTown;  
+                }
+            }
+            Console.WriteLine("Firts town is: {0}", firstTown);
+        }
+
+      
+
+
+    }
+

@@ -1,0 +1,36 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string str = "C# Programming Course";
+
+            int index = str.IndexOf("C#");
+
+            Console.WriteLine(index);
+
+            index = str.IndexOf("Course");
+
+            Console.WriteLine(index);
+
+            index = str.IndexOf("COURSE");
+
+            Console.WriteLine(index);
+
+            index = str.IndexOf("r", 5); // от 5 нантатък
+
+            Console.WriteLine(index);
+            
+        }
+
+      
+
+
+    }
+

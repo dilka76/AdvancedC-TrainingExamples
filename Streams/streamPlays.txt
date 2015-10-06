@@ -1,0 +1,42 @@
+ŒÚ ÎÂÍˆËˇÚ‡ ‘¿…ÀŒ¬≈ » œŒ“Œ÷»
+
+
+using System;
+using System.IO;
+
+namespace FileStream
+{
+    class Program
+    {
+        static void Main()
+        {
+           // var fileStream = File.Create("../../dilka.txt");
+           // using (fileStream)
+           // {
+           //     fileStream.Write(new byte[] { 32, 48, 45 }, 0, 3);
+                
+           // }
+           ////File.Move("../../dilka.txt", "../../dilkaTestRename.txt");
+
+            //File.Delete("../../fileDelete.txt");
+
+            //var fileInfo = new FileInfo("../../dilka.txt");
+
+            //Console.WriteLine("Name: {0}, Extention: {1}, Size: {2}b, Last accssed: {3}", 
+            //    fileInfo.Name, fileInfo.Extension, fileInfo.Length, fileInfo.LastAccessTime);
+
+            //string[] files = Directory.GetFiles(Directory.GetCurrentDirectory());
+
+            //foreach (var item in files)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+            Console.WriteLine(path);
+
+
+        }
+    }
+}

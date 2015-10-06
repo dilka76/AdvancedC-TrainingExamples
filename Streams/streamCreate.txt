@@ -1,0 +1,36 @@
+От лекцията ФАЙЛОВЕ И ПОТОЦИ
+
+
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+using System.Text;
+using System.IO;
+
+
+class dilkaTest
+{
+
+    static void Main()
+    {
+        string text = "Кирилица";
+        var fileStream = new FileStream("../../log.txt", FileMode.Create);
+
+        try
+        {
+            byte[] bytes = Encoding.UTF8.GetBytes(text);
+            fileStream.Write(bytes, 0, bytes.Length);
+        }
+        finally
+        {
+            fileStream.Close();
+        }
+       
+    }
+
+
+
+
+}
+

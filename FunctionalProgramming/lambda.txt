@@ -1,0 +1,71 @@
+using System;
+using System.Collections.Generic;
+
+
+namespace functionalProgamming
+{
+    class Program
+    {
+        static void Main()
+        {
+            List <int> list = new List<int> { 1, 2, 3, 4, 6, 7 };
+
+            List <int> evenNumbers = list.FindAll(x => (x % 2) == 0);
+
+            foreach (var num in evenNumbers)
+            {
+                Console.Write("{0} ", num);
+            }
+            Console.WriteLine();
+
+            list.RemoveAll(x => x > 3);
+        }
+    }
+}
+==================================================================================
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+
+namespace functionalProgamming
+{
+    class Program
+    {
+        static void Main()
+        {
+            List<int> list = new List<int> { 20, 2, 3, 4, 5, 6, 40 };
+
+            List<int> evenNumbers = list.FindAll(element =>
+                {
+                    Console.WriteLine("Value of i is: {0}", element);
+                    return (element % 2 == 0);
+                });
+            Console.WriteLine("Here you are even numbers: ");
+            foreach (int even in evenNumbers)
+            {
+                Console.Write("{0}\t", even);
+            }
+        }
+    }
+}
+============================================
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+
+namespace functionalProgamming
+{
+    class Program
+    {
+        static void Main()
+        {
+            var list = new List<string> { "Dilka", "Komprir", "Pesho" };
+
+            list.ForEach(str => Console.Write("{0}\t", str));
+            Console.WriteLine();
+        }
+    }
+}
+

@@ -1,0 +1,31 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string cocktail = "Martini + Vodka + Cherry";
+
+            string replaced = cocktail.Replace("+", "end");
+
+            Console.WriteLine(replaced);
+
+            string price = "$ 12345567";
+
+            string lowPrice = price.Remove(2, 6);// от индекс 2 маха 6 елемента
+
+            Console.WriteLine(lowPrice);
+            
+            
+        }
+
+      
+
+
+    }
+

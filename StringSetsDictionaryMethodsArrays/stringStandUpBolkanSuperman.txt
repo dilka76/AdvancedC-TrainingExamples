@@ -1,0 +1,30 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string song = "Stand up, Stand up, Bolkan Supeman.";
+
+            Console.WriteLine("song = \"{0}\"", song);
+            Console.WriteLine("song.Length = {0}", song.Length);
+
+            for (int i = 0; i < song.Length; i++)
+			{
+			 Console.WriteLine("Song[{0}] = {1}", i, song[i]);
+			}
+
+            string stars = new string('*', 10);
+
+            Console.WriteLine(stars);
+
+        }
+
+        
+    }
+

@@ -1,0 +1,29 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string alpha = "aBcDfGhRkL";
+
+            string lowerAlpha = alpha.ToLower();
+
+            Console.WriteLine(lowerAlpha);
+
+            string upperAlpha = alpha.ToUpper();
+
+            Console.WriteLine(upperAlpha);
+            
+            
+        }
+
+      
+
+
+    }
+

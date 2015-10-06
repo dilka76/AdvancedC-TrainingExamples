@@ -1,0 +1,24 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string filename = @"C:\Pics\Rila2019.jpg";
+
+            string name = filename.Substring(8, 8); // първото е начален индекс а вторият параметър е дължина! (Rila2019)
+
+            Console.WriteLine(name);
+            
+        }
+
+      
+
+
+    }
+

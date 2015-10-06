@@ -1,0 +1,38 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string info = 4 + 3 + "Dilka"; // first make sum 
+
+            Console.WriteLine(info);
+
+            string info2 = "Dilka" + 4 + 3;
+
+            Console.WriteLine(info2); // the numbers are string or (4 + 3)
+        }
+
+      
+
+
+    }
+
+========================================================================================	
+
+int[] nums = { 1, 2, 3 };
+
+            int[] nums2 = { 1, 2, 3 };
+
+            Console.WriteLine(nums == nums2); // false
+
+            int[] nums3 = { 1, 2, 3 };
+
+            int[] nums4 = nums3;
+
+            Console.WriteLine(nums3 == nums4); // addres assignement (true)

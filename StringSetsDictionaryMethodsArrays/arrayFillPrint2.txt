@@ -1,0 +1,18 @@
+ int[,] array = new int[3, 4];
+
+            for (int row = 0; row < array.GetLength(0); row++)
+            {
+                for (int col = 0; col < array.GetLength(1); col++)
+                {
+                    array[row, col] = row + col;
+                }
+            }
+
+            for (int row = 0; row < array.GetLength(0); row++)
+            {
+                for (int col = 0; col < array.GetLength(1); col++)
+                {
+                    Console.Write("{0} ", array[row, col]);
+                }
+                Console.WriteLine();
+            }

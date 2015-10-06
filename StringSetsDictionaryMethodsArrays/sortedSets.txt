@@ -1,0 +1,26 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+        static void Main()
+        {
+            SortedSet<string> sortSet = new SortedSet<string>();
+
+            sortSet.Add("Pesho");
+            sortSet.Add("Gosho");
+            sortSet.Add("Maria");
+            sortSet.Add("Pesho");
+            sortSet.Add("Alice");
+
+            Console.WriteLine(string.Join(", ", sortSet));
+
+            var reversed = sortSet.Reverse();
+
+            Console.WriteLine(string.Join(" - ", reversed));
+        }
+    }
+

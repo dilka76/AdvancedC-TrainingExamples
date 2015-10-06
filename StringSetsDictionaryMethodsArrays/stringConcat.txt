@@ -1,0 +1,31 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string str1 = "Pesho";
+
+            string str2 = "Gosho";
+
+            string str = string.Concat(str1, str2);
+
+            Console.WriteLine(str);
+
+            string name = "Dilka";
+
+            int age = 39;
+
+            Console.WriteLine(name + " " + age + " years old");
+        }
+
+      
+
+
+    }
+

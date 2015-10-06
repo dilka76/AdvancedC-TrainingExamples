@@ -1,0 +1,39 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+using System.Text;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            string s = "   example of white space \n   ";
+
+            string clean = s.Trim(); // маха само отпред и отзад
+
+            Console.WriteLine(clean);
+
+            clean = s.TrimEnd(); // маха само  отзад
+
+            Console.WriteLine(clean);
+
+            clean = s.TrimStart(); // маха само otpred
+
+            Console.WriteLine(clean);
+
+            string str = "\t\nHello!!! \n";
+
+            string clean1 = str.Trim(' ', ',', '!', '\n'); 
+
+            Console.WriteLine(clean1);
+            
+        }
+
+      
+
+
+    }
+

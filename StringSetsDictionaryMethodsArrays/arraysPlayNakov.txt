@@ -1,0 +1,78 @@
+using System;
+using dilkaTests;
+using System.Linq;
+
+
+    class dilkaTest
+    {
+        static void Main()
+        {
+            //int[] arr = new int[5];
+
+            //arr[0] = 10;
+            //arr[4] = 20;
+            //Console.WriteLine(arr.Length);
+
+            //int size = int.Parse(Console.ReadLine());
+
+            //int[] arr2 = new int[size];
+
+            //for (int i = 0; i < size; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine(string.Join(", ", arr));
+
+            //string str = Console.ReadLine();
+
+            //string[] tokens = str.Split(',');
+
+            //Array.Sort(tokens);
+
+            //Console.WriteLine("[{0}]", string.Join(", ", tokens));
+
+            //list<string> names = new list<string>();
+
+            //while (true)
+            //{
+            //    string name = Console.ReadLine();
+            //    if (string.IsNullOrEmpty(name))
+            //    {
+            //        break;
+            //    }
+            //    names.Add(name);
+            //}
+            //string[] towns = { "Sofia", "Varna", "Burgas" };
+
+            //Console.WriteLine(towns);
+
+            //Console.WriteLine(towns.Length);
+
+            //Console.WriteLine(towns[2]);
+
+            //Console.WriteLine(string.Join(" . / ", towns));
+
+            //towns[0] = "Pleven";
+
+            //Console.WriteLine(towns[0]);
+
+            //towns[2] = null;
+
+            //Console.WriteLine(string.Join(" . / ", towns));
+
+            //int[] nums = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+            //Console.WriteLine(string.Join(",", nums.Select(n => 1.0 / n).Select(p => p.ToString("f2"))));
+
+            //string[] strings = { "one", "Two", "Three" };
+
+            //Console.WriteLine(string.Join("-", strings));
+
+            //int[] arr = { 1, 2, 3, 4, 5 };
+
+            //arr.ToList().ForEach(a => Console.WriteLine(a));
+
+        }
+    }
+

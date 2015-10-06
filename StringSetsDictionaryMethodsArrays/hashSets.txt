@@ -1,0 +1,27 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+        static void Main()
+        {
+            HashSet<string> set = new HashSet<string>();
+            set.Add("Pesho");
+            set.Add("Pesho");
+            set.Add("Gosho");
+            set.Add("Deso");
+
+            Console.WriteLine(string.Join(", ", set));
+
+            Console.WriteLine(set.Contains("Milko"));
+            Console.WriteLine(set.Contains("Deso"));
+
+            set.Remove("Gosho");
+            Console.WriteLine(string.Join(", ", set));
+            Console.WriteLine(set.Count);
+        }
+    }
+

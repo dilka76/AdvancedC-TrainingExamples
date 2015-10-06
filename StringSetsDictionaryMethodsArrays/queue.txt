@@ -1,0 +1,11 @@
+ var queue = new Queue<string>();
+
+            queue.Enqueue("Pesho");
+            queue.Enqueue("Pesfho");
+            Console.WriteLine(queue.Dequeue());
+            queue.Enqueue("Dilka");
+
+            while (queue.Count > 0)
+            {
+                Console.WriteLine(queue.Dequeue());
+            }

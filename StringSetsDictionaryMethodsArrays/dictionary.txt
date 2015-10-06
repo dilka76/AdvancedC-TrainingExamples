@@ -1,0 +1,36 @@
+асоциативен масив
+
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+        static void Main()
+        {
+            Dictionary<string, string> phonebook = new Dictionary<string, string>();
+
+            phonebook["John Smith"] = "0897960222";
+            phonebook["Dani Mani"] = "466454433";
+            phonebook["Milko"] = "04665640222";
+            phonebook["Evgeni"] = "089795333560222";
+
+            phonebook.Remove("Milko");
+
+            phonebook.Add("Dilka Dilka", "089975787"); // с това не може да се презаписва
+
+            Console.WriteLine(phonebook.ContainsKey("Evgeni"));
+
+            Console.WriteLine(phonebook.ContainsKey("Kondio"));
+
+            phonebook["Evgeni"] = "333"; // с това се презаписва
+            
+            foreach (var name in phonebook)
+            {
+                Console.WriteLine("Name: {0} ----> Phone: {1}", name.Key, name.Value);
+            }
+        }
+    }
+

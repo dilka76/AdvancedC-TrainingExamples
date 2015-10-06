@@ -1,0 +1,24 @@
+using System;
+using dilkaTests;
+using System.Linq;
+using System.Collections.Generic;
+
+
+    class dilkaTest
+    {
+
+        static void Main()
+        {
+            //Console.WriteLine(string.CompareOrdinal("Pesho", "Peshp")); //разлика -1 (по ASCI)
+
+            Console.WriteLine("Pesho".Equals("Pesho")); //дали е равен?
+
+            Console.WriteLine("Pesho" == "Pesho");
+
+
+
+        }
+
+        
+    }
+
